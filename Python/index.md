@@ -60,7 +60,7 @@ def excel_automation(file_name):
    month_name = month_and_extension.split('.')[0]
 
    #formatting the report
-   sheet['A1'] = 'import Report'
+   sheet['A1'] = 'students results Report'
    sheet['A2'] = month_name.title()
    sheet['A1'].font = Font('Arial', bold=True, size=20)
    sheet['A2'].font = Font('Arial', bold=True, size=10)
