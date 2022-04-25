@@ -30,6 +30,12 @@ def excel_automation(file_name):
    max_column = wb.active.max_column
    min_row = wb.active.min_row
    max_row = wb.active.max_row
+   
+   #maximum and minimum rows and columns
+   Minimum Columns: 4
+   Maximum Columns: 15
+   Minimum Rows: 1
+   Maximum Rows: 5
 
    #adding a chart
    barchart = BarChart()
